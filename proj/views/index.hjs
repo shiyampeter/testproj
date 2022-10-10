@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <style>
+            body {
+                    background-color: rgb(67, 141, 165);
+                    border: 10px;
+            }       
+            h2{
+                color:red;
+                background-color: lightgray;
+                text-align: center;
+            }        
+            p{
+                background-color: rgb(225, 212, 223);
+            }
+        </style>
+    </head>
+    <body>
+            <h2>Your Login Credentials</h2>
+            <p>Name : {{name}}<br>RollNumber : {{rno}} </p>       
+            
+            <b>to login click www.google.com</b>
+    </body>
+</html>
